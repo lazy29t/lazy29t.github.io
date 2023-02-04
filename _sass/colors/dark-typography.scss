@@ -2,7 +2,7 @@
  * The main dark mode styles
  */
 
-@mixin dark-scheme {
+/*@mixin dark-scheme {
   /* Framework color */
   --body-bg: var(--main-bg);
   --mask-bg: rgb(20, 20, 31);
@@ -33,7 +33,7 @@
       rgba(255, 255, 255, 0) 0%,
       rgba(58, 55, 55, 0.4) 50%,
       rgba(255, 255, 255, 0) 100%
-    );
+    );*/
 
   /* Sidebar */
   --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
