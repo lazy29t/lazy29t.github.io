@@ -2,29 +2,29 @@
  * The main dark mode styles
  */
 
-/*@mixin dark-scheme {
+@mixin dark-scheme {
   /* Framework color */
   --body-bg: var(--main-bg);
-  --mask-bg: rgb(20, 20, 31);
-  --main-bg: rgb(4, 4, 7);
-  --main-border-color: rgb(9, 7, 23);
+  --mask-bg: rgb(68, 69, 70);
+  --main-bg: rgb(7, 7, 7);
+  --main-border-color: rgb(44, 45, 45);
 
   /* Common color */
   --text-color: rgb(175, 176, 177);
-  --text-muted-color: rgb(107, 116, 124);
-  --heading-color: #b30000;;
+  --text-muted-color: rgb(107, 116, 124); //text for dates
+  --heading-color: #255c9c;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: rgb(117, 117, 117);
-  --link-color: rgb(138, 180, 248);
-  --link-underline-color: rgb(164, 0, 0);
-  --button-bg: rgb(39, 40, 43);
-  --btn-border-color: rgb(164, 0, 0);
-  --btn-backtotop-color: var(--text-color);
+  --link-color: rgb(130, 2, 47);
+  --link-underline-color: rgb(130, 2, 47);
+  --button-bg: rgb(12, 7, 7); //boton
+  --btn-border-color: rgba(130, 2, 47); //border of button
+  --btn-backtotop-color: rgb(121, 12, 12);//var(--text-color);
   --btn-backtotop-border-color: var(--btn-border-color);
   --btn-box-shadow: var(--main-bg);
-  --card-header-bg: rgb(51, 50, 50);
-  --label-color: rgb(108, 117, 125);
-  --checkbox-color: rgb(118, 120, 121);
+  --card-header-bg: rgba(18, 18, 18, 0.628);
+  --label-color: rgb(130, 2, 47);
+  --checkbox-color: rgb(169, 63, 5);
   --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
   --shimmer-bg:
@@ -33,57 +33,58 @@
       rgba(255, 255, 255, 0) 0%,
       rgba(58, 55, 55, 0.4) 50%,
       rgba(255, 255, 255, 0) 100%
-    );*/
+    );
 
   /* Sidebar */
-  --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
-  --sidebar-muted-color: #6d6c6b;
-  --sidebar-active-color: rgb(255, 255, 255, 0.8);
+  --sidebar-bg: #020202ba; //panel color
+  //radial-gradient(circle, #242424 0%, #1d1f27 100%);
+  --sidebar-muted-color: rgb(169, 1, 60);
+  --sidebar-active-color: rgba(130, 2, 47, 0.82);
   --nav-cursor-color: rgb(183, 182, 182);
-  --sidebar-btn-bg: rgb(117, 116, 116, 0.2);
+  --sidebar-btn-bg: rgba(198, 153, 153, 0.2);
 
   /* Topbar */
   --topbar-text-color: var(--text-color);
-  --topbar-wrapper-bg: rgb(4, 4, 7);
-  --search-wrapper-bg: rgb(215, 215, 215);
-  --search-wrapper-border-color: rgb(68, 68, 68);
+  --topbar-wrapper-bg: rgb(1, 1, 14);
+  --search-wrapper-bg: rgb(34, 34, 39);
+  --search-wrapper-border-color: rgb(34, 34, 39);
   --search-icon-color: rgb(100, 102, 105);
   --input-focus-border-color: rgb(112, 114, 115);
 
   /* Home page */
   --post-list-text-color: rgb(175, 176, 177);
   --btn-patinator-text-color: var(--text-color);
-  --btn-paginator-hover-color: rgb(36, 0, 0);
-  --btn-paginator-border-color: var(--btn-border-color);
+  --btn-paginator-hover-color: rgb(14, 14, 14); //N of pages
+  --btn-paginator-border-color: rgba(0, 0, 0, 0.09); //var(--btn-border-color);
   --btn-text-color: var(--text-color);
   --pin-bg: rgb(34, 35, 37);
   --pin-color: inherit;
 
   /* Posts */
-  --toc-highlight: rgb(116, 178, 243);
-  --tag-bg: rgb(41, 40, 40);
-  --tag-hover: rgb(43, 56, 62);
+  --toc-highlight: rgb(104, 8, 36);
+  --tag-bg: rgb(19, 19, 19);
+  --tag-hover: rgb(67, 67, 67);
   --tb-odd-bg: rgba(42, 47, 53, 0.52); /* odd rows of the posts' table */
-  --tb-even-bg: rgb(31, 31, 34); /* even rows of the posts' table */
+  --tb-even-bg: rgb(0, 0, 88); /* even rows of the posts' table */
   --tb-border-color: var(--tb-odd-bg);
-  --footnote-target-bg: rgba(21, 21, 23, 0);
+  --footnote-target-bg: rgb(63, 81, 181);
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
   --relate-post-date: var(--text-muted-color);
-  --card-bg: rgb(31, 0, 0);
-  --card-border-color: rgb(53, 53, 60);
-  --card-box-shadow: var(--main-bg);
+  --card-bg: rgb(19, 3, 3);
+  --card-border-color: rgba(53, 53, 60, 0.17);
+  //--card-box-shadow: var(--main-bg);
   --kbd-wrap-color: #6a6a6a;
   --kbd-text-color: #d3d3d3;
   --kbd-bg-color: #242424;
   --prompt-text-color: rgb(216, 212, 212, 0.75);
   --prompt-tip-bg: rgba(77, 187, 95, 0.2);
   --prompt-tip-icon-color: rgb(5, 223, 5, 0.68);
-  --prompt-info-bg: rgb(7, 59, 104, 0.8);
+  --prompt-info-bg: rgba(7, 59, 104, 0.367);
   --prompt-info-icon-color: #0075d1;
   --prompt-warning-bg: rgb(90, 69, 3, 0.95);
   --prompt-warning-icon-color: rgb(255, 165, 0, 0.8);
-  --prompt-danger-bg: rgb(86, 28, 8, 0.8);
+  --prompt-danger-bg: rgba(116, 29, 0, 0.277);
   --prompt-danger-icon-color: #cd0202;
 
   /* tags */
@@ -93,12 +94,8 @@
   --dash-color: rgb(63, 65, 68);
 
   /* categories */
-<<<<<<< HEAD
-  --categories-border: rgba(26, 30, 39, 0);
-=======
-  --categories-border: rgb(326, 30, 39, 0);
->>>>>>> a8f33e34e874421ccebab8e9ceeeef5869ee0af6
-  --categories-hover-bg: rgb(73, 75, 76);
+  --categories-border: rgb(6, 5, 6);
+  --categories-hover-bg: rgb(10, 6, 8);
   --categories-icon-hover-color: white;
 
   /* archives */
@@ -172,3 +169,4 @@
     color-scheme: none;
   }
 } /* dark-scheme */
+
