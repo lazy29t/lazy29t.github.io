@@ -1,5 +1,5 @@
 ---
-title: Writing a New Post
+title: Writeup Photobomb
 author: cotes
 date: 2019-08-08 14:10:00 +0800
 categories: [HacktTheBox, EASY]
