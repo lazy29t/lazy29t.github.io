@@ -1,7 +1,7 @@
 ---
 title: Writeup Photobomb
 author: cotes
-date: 2019-08-08 14:10:00 +0800
+date: 2023-02-023 14:10:00 +0800
 categories: [HacktTheBox, EASY]
 tags: [pentesting, linux]
 render_with_liquid: false
