@@ -4,6 +4,7 @@ author: cotes
 date: 2023-02-023 14:10:00 +0800
 categories: [HacktTheBox, EASY]
 tags: [pentesting, linux]
+permalink: /HackTheBox/EASY/photobomb
 render_with_liquid: false
 ---
 
