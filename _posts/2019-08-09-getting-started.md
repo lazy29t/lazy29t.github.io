@@ -2,8 +2,8 @@
 title: Writeup Precious HTB
 author: lazy29t
 date: 2023-01-09 20:55:00 +0800
-categories: [Blogging, Tutorial]
-tags: [pentesting, CVE]
+categories: [HackTheBox, EASY]
+tags: [pentesting, CVE, exploit]
 pin: true
 ---
 
@@ -32,7 +32,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ...
 
 ```
-With that information we are going to visit the website [http://precious.htb/], after that we can look at see the next main panel, tell us put a *url* 
+With that information we are going to visit the website [http://precious.htb/](http://10.10.11.189/) , after that we can look at see the next main panel, tell us put a *url* 
 for convert to pdf file 
 Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`. In addition, [Git](https://git-scm.com/) is also required to be installed.
 
