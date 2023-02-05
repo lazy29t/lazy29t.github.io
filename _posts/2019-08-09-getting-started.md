@@ -4,6 +4,7 @@ author: lazy29t
 date: 2023-01-09 20:55:00 +0800
 categories: [HackTheBox, EASY]
 tags: [pentesting, CVE, exploit]
+permalink: /HackTheBox/EASY/precious
 pin: true
 ---
 
