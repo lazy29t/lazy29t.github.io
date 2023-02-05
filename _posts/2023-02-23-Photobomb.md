@@ -1,7 +1,7 @@
 ---
 title: Writeup Photobomb HTB
-author: cotes
-date: 2023-02-02 14:10:00 +0800
+author: lazy29t
+date: 2023-02-02 22:10:00 +0800
 categories: [HackTheBox, EASY]
 tags: [pentesting, linux]
 permalink: /HackTheBox/EASY/photobomb
