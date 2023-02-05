@@ -8,5 +8,5 @@ I'm a enthusiast student about cybersecurity.
 In this blog I'll post it some notes and writeups from HackTheBox plataform.
 
 
-> I hope you enjoy it ~(+v+)~ `_tabs/about.md`{: .filepath } and it will show up on this page.
+> I hope you enjoy it `~(+v+)~`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
