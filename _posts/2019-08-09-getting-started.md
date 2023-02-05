@@ -1,7 +1,7 @@
 ---
 title: Writeup Precious HTB
 author: lazy29t
-date: 2023-01-09 20:55:00 +0800
+date: 2023-01-22 20:55:00 +0800
 categories: [HackTheBox, EASY]
 tags: [pentesting, CVE, exploit]
 permalink: /HackTheBox/EASY/precious
