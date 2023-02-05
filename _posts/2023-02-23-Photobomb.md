@@ -1,5 +1,5 @@
 ---
-title: Writeup Photobomb
+title: Writeup Photobomb HTB
 author: cotes
 date: 2023-02-02 14:10:00 +0800
 categories: [HacktTheBox, EASY]
