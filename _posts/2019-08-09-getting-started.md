@@ -44,8 +44,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 With that information we are going to visit the website [http://precious.htb](http://precious.htb/), after that we can look at see the next main panel, tell us put a `url` 
 for convert to pdf file 
 
+![Image](/assets/img/favicons/HTB/precious-main.png){: width="972" height="589" }
 
-![Image](/assets/img/favicons/HTB/precious-main.png)
 
 &nbsp;
 ---
