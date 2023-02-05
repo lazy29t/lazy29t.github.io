@@ -32,7 +32,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ...
 
 ```
-
+With that information we are going to visit the website [http://precious.htb/], after that we can look at see the next main panel, tell us put a *url* 
+for convert to pdf file 
 Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll`, and `Bundler`. In addition, [Git](https://git-scm.com/) is also required to be installed.
 
 ## Installation
