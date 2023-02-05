@@ -1,7 +1,7 @@
 ---
 title: Writeup Photobomb  
 author: lazy29t
-date: 2023-02-23 20:55:00 +0800
+date: 2023-02-01 20:55:00 +0800
 categories: [HackTheBox, EASY]
 tags: [easy, CVE, exploit]
 permalink: /HackTheBox/EASY/precious
