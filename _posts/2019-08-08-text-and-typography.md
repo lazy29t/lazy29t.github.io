@@ -3,7 +3,8 @@ title: Writeup Photobomb
 author: lazy29t
 date: 2023-02-23 20:55:00 +0800
 categories: [HTB, EASY]
-tags: [easy CVE exploit]
+tags: [easy, CVE, exploit]
+permalink: /HackTheBox/EASY/precious
 math: true
 mermaid: true
 image:
