@@ -46,7 +46,7 @@ for convert to pdf file
 
 ![Desktop View](/../assets/img/favicons/HTB/precious-main.png){: width="700" height="400" }
 
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
+![Desktop View](/posts/20190808/precious-main.png){: width="972" height="589" }
 _Full screen width and center alignment_
 
 ![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" }
