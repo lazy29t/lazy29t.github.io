@@ -46,14 +46,14 @@ for convert to pdf file
 
 
 
-![HTB Img](/assets/img//HTB/EASY/precious-main.png){: width="700" height="400" }
+![HTB Img](/assets/img//HTB/EASY/precious-main.png){: width="800" height="400" }
 
 ---
 So with that panel we have to write our vpn from plataform and it this the results
 
-![HTB Img](/assets/img//HTB/EASY/clue1.png){: width="700" height="400" }
+![HTB Img](/assets/img//HTB/EASY/clue1.png)
 
-![HTB Img](/assets/img//HTB/EASY/clueping1.png)
+![HTB Img](/assets/img//HTB/EASY/clueping.png){: width="700" height="400" }
 
 ## 
 
