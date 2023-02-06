@@ -46,10 +46,9 @@ for convert to pdf file
 ---
 
 ### Enumeration
-So with that panel we have to write our vpn from plataform and it this the results
+So with that panel we have to write our vpn from plataform
 
 ![HTB Img](/assets/img//HTB/EASY/clueping.png){: width="800" height="300" }
-
 
 Then we have to create a web server with python to see any request from that website
 
