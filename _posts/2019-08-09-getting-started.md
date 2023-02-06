@@ -49,9 +49,11 @@ for convert to pdf file
 ![HTB Img](/assets/img//HTB/EASY/precious-main.png){: width="700" height="400" }
 
 ---
+So with that panel we have to write our vpn from plataform and it this the results
 
+![HTB Img](/assets/img//HTB/EASY/precious-main.png){: width="700" height="400" }
 
-## Installation
+## 
 
 ```console
 $ python3 -m http.server 80 
