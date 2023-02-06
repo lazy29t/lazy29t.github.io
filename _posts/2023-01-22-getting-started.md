@@ -9,6 +9,8 @@ pin: true
 math: true
 mermaid: true
 
+---
+
 ## Recognizement
 
 First step you have to verify if the machine is active throught an **ICMP** ping.
