@@ -51,8 +51,8 @@ _Full screen width and center alignment_
 
 ![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" }
 
-<img src="/assets/img/favicons/HTB/precious-main.png)" alt="The flower">
-
+---
+image: /assets/img/favicons/HTB/precious-main.png
 
 ---
 
