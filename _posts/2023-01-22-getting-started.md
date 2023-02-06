@@ -178,7 +178,7 @@ def list_from_file
     YAML.load(File.read("dependencies.yml"))
 end
 ```
-so seeying that script has to load any file called `dependencies.yml` and researched we can used this [**script**](https://blog.stratumsecurity.com/2021/06/09/blind-remote-code-execution-through-yaml-deserialization/)to become a bash to uid changed the sleep command from *git_Set* to **chmod u+s /bin/bash** command
+so seeying that script has to load any file called `dependencies.yml` and researched we can used this [**script**](https://blog.stratumsecurity.com/2021/06/09/blind-remote-code-execution-through-yaml-deserialization/) to become a bash to uid changed the sleep command from *git_set* to **chmod u+s /bin/bash** command
 
 ```console
 henry@precious:~$ cat dependencies.yml
