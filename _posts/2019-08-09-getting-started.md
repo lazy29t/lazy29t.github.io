@@ -51,17 +51,15 @@ for convert to pdf file
 ---
 So with that panel we have to write our vpn from plataform and it this the results
 
-![HTB Img](/assets/img//HTB/EASY/clue1.png)
-
 ![HTB Img](/assets/img//HTB/EASY/clueping.png){: width="800" height="300" }
 
-## 
+
+Then we have to create a web server with python to see any request from that website
 
 ```console
 $ python3 -m http.server 80 
 ```
-
-### Creating a New Site
+well...
 
 ```console
 $ python3 -m http.server 80 
@@ -69,6 +67,14 @@ Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 10.10.11.189 - - "GET / HTTP/1.1" 200 -
 
 ```
+
+![HTB Img](/assets/img//HTB/EASY/clue1.png)
+
+
+
+### Creating a New Site
+
+
 There are two ways to create a new repository for this theme:
 
 ```console
