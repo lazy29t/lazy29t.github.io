@@ -51,10 +51,10 @@ _Full screen width and center alignment_
 
 ![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" }
 
----
-image: /assets/img/favicons/HTB/precious-main.png
+![HTB Img](/assets/img//HTB/EASY/precious-main.png)
 
 ---
+
 
 ## Installation
 
