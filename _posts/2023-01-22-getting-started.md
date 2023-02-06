@@ -140,7 +140,6 @@ We have an user calling `henry` and his password, so with that information we ar
 ```console
 $ ssh  henry@10.10.11.189 
 henry@10.10.11.189's password: 
-Linux precious 5.10.0-19-amd64 #1 SMP Debian 5.10.149-2 (2022-10-21) x86_64
 -----
 henry@precious:~$ 
 
