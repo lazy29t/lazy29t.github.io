@@ -135,7 +135,7 @@ cat config
 BUNDLE_HTTPS://RUBYGEMS__ORG/: "henry:Q3c1AqGHtoI0aXAYFH"
 
 ```
-We have an user calling `henry` and his password, so with that information we are goign to test sign in for ssh port
+We have an user calling `henry` and his password, so with that information we are going to test sign in for ssh port
 
 ```console
 $ ssh  henry@10.10.11.189 
