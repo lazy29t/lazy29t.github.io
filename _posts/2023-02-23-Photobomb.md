@@ -13,7 +13,7 @@ image:
     
 
 ---
----
+
 
 This tutorial will guide you how to write a post in the _Chirpy_ template, and it's worth reading even if you've used Jekyll before, as many features require specific variables to be set.
 
@@ -24,7 +24,7 @@ Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in 
 ## Front Matter
 
 ![EASY HTB Img](/assets/img//HTB/EASY/Photobomb/main.png){: width="700" height="300" }
-![Photobomb EASY HTB Img](/assets/img/HTB/EASY/Photobomb/information-diclosed.png{: width="700" height="300" }
+![Desktop View](/assets/img/HTB/EASY/Photobomb/information-diclosed.png{: width="700" height="300" }
 
 Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as below at the top of the post:
 
