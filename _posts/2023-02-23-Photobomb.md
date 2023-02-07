@@ -10,6 +10,7 @@ math: true
 mermaid: true
 image:
   path: /assets/img/HTB/EASY/Photobomb/pwn.png
+    
 
 ---
 ---
