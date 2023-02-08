@@ -1,10 +1,10 @@
 ---
-title: Dirbuster 
+title: Starting Point Tier 0 HTB
 author: lazy29t
-date: 2023-02-01 20:55:00 +0800
+date: 2023-02-07 20:53:00 +0800
 categories: [Tools, Enumeration]
 tags: [Discovery, tools, enumeration]
-permalink: /Tools/Enumeration/Fuzz
+permalink: /HTB/Starting-Point/tier-0
 math: true
 mermaid: true
 image:
