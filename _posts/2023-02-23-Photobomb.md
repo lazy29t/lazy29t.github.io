@@ -3,9 +3,8 @@ title: Writeup Photobomb HTB
 author: lazy29t
 date: 2023-02-02 22:10:00 +0800
 categories: [HackTheBox, EASY]
-tags: [pentesting, linux]
+tags: [pentesting, linux, CVE]
 permalink: /HackTheBox/EASY/photobomb
-render_with_liquid: false
 math: true
 mermaid: true
 image:
@@ -22,9 +21,9 @@ This tutorial will guide you how to write a post in the _Chirpy_ template, and i
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
 ## Front Matter
-
+---
 ![EASY HTB Img](/assets/img//HTB/EASY/Photobomb/main.png){: width="700" height="300" }
-
+---
 
 Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as below at the top of the post:
 
