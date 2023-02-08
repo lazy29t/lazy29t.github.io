@@ -40,7 +40,7 @@ With that information we are going to visit the website [http://precious.htb](ht
 for convert to pdf file 
 
 
-
+---
 ![HTB Img](/assets/img//HTB/EASY/precious-main.png){: width="800" height="300" }
 
 ---
