@@ -19,9 +19,9 @@ image:
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
 ## Front Matter
----
-![EASY HTB Img](/assets/img//HTB/EASY/Photobomb/main.png){: width="700" height="300" }
----
+
+![HTB Img](/assets/img//HTB/EASY/Photobomb/main.png){: width="700" height="300" }
+
 
 Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as below at the top of the post:
 
@@ -33,7 +33,6 @@ categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [TAG]     # TAG names should always be lowercase
 ---
 ```
-![Desktop View](/assets/img/HTB/EASY/Photobomb/network.png{: width="700" height="300" }
 
 > The posts' _layout_ has been set to `post` by default, so there is no need to add the variable _layout_ in the Front Matter block.
 {: .prompt-tip }
