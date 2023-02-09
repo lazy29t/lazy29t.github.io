@@ -11,7 +11,7 @@ image:
   path: /assets/img/HTB/EASY/Photobomb/pwn.png
   width: 800
   height: 500
- 
+  
 ---
 
 ## Recognizement
