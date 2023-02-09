@@ -17,6 +17,8 @@ First step you have to verify if the machine is active throught an **ICMP** ping
 ```console
 $ ping -c 1 10.10.11.189
 ```
+### Nmap
+
 After that we're going to scan it with nmap tool for discover what ports are exposed on that machine
 ```console
 $ nmap -p- -sCV --min-rate 5000 -v -n -Pn 10.10.11.189                                                                                                    
