@@ -6,7 +6,11 @@ categories: [HackTheBox, EASY]
 tags: [pentesting, linux]
 permalink: /HackTheBox/EASY/photobomb
 render_with_liquid: false
-
+image: 
+     path: /assets/img/HTB/EASY/pwn.png
+     height: 800px
+     width: 500px
+     
 ---
 ## Recognizement
 
