@@ -134,7 +134,7 @@ Then you can use it like other markdown languages: surround the graph code with 
 Add italics to the next line of an image，then it will become the caption and appear at the bottom of the image:
 
 ```markdown
-![img-description](/path/to/image)
+![img-description](/assets/img/HTB/EASY/Photobomb/pwn.png)
 _Image Caption_
 ```
 {: .nolineno}
