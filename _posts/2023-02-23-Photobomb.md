@@ -12,6 +12,14 @@ image:
 ---
 ## Recognizement
 
+Before to start the machine we have to view if the machine is active
+
+```console
+ ping -c 1 10.10.11.182
+```
+
+
+
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
 ## Front Matter
