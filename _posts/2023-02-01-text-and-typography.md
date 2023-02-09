@@ -2,9 +2,9 @@
 title: Fuzz 
 author: lazy29t
 date: 2023-02-01 20:55:00 +0800
-categories: [Tools, Enumeration]
-tags: [Discovery, tools, enumeration]
-permalink: /Tools/Enumeration/Fuzz
+categories: [Web, Discovery]
+tags: [Discovery, tools, enumeration, web]
+permalink: /Web/Enumeration/Fuzz
 math: true
 mermaid: true
 image:
