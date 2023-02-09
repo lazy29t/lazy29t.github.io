@@ -16,9 +16,6 @@ Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in 
 
 ## Front Matter
 
-![HTB Img](/assets/img//HTB/EASY/Photobomb/main.png){: width="700" height="300" }
-
-
 Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as below at the top of the post:
 
 ```yaml
