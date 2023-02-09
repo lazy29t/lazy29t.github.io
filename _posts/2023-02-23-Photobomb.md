@@ -7,11 +7,7 @@ tags: [pentesting, linux, CVE]
 permalink: /HackTheBox/EASY/photobomb
 math: true
 mermaid: true
-image:
-  path: /assets/img/HTB/EASY/Photobomb/pwn.png
-  width: 800
-  height: 500
-  
+
 ---
 
 ## Recognizement
