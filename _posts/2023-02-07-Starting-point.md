@@ -2,9 +2,9 @@
 title: Starting Point Tier 0 HTB
 author: lazy29t
 date: 2023-02-07 20:53:00 +0800
-categories: [HTB, StartPoint]
+categories: [HackTheBox, StartPoint]
 tags: [Discovery, tools, HTB, telnet]
-permalink: /HTB/Starting-Point/tier-0
+permalink: /HackTheBox/Starting-Point/tier-0
 math: true
 mermaid: true
 image:
