@@ -19,6 +19,10 @@ Before to start we have to view if the machine is active
 
 ```console
  ping -c 1 10.10.11.182
+                 ------------ ----------
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 181.901/181.901/181.901/0.000 ms
+                 ------------ ----------
 ```
 
 ### Nmap
@@ -29,6 +33,19 @@ Now we are started to scan the IP machine with [**nmap**] with this commands.
 nmap -p- --open -sCV --min-rate 5000 -v -n -Pn 10.10.11.182 
 ```
 And this is the output:
+```console
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Did not follow redirect to http://photobomb.htb/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+```
+How we can see the `port 80` is open so we are going to the domain [**https://photobomb.htb**](http://photobomb.htb) and see the content
+
+![HTB Img](/assets/img//HTB/EASY/panel.png)
 
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
