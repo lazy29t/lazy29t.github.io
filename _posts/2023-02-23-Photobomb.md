@@ -53,6 +53,22 @@ Seeying the web-page index we have to click on `click here!` and it'll appear th
 
 ![HTB Img](/assets/img//HTB/EASY/admin-psw.png)
 
+
+
+![HTB Img](/assets/img//HTB/EASY/information-diclosed.png)
+
+![HTB Img](/assets/img//HTB/EASY/admin-panel.png)
+
+
+## Exploit
+
+### Proxy
+![HTB Img](/assets/img//HTB/EASY/request.png)
+
+And you can see the output
+
+![HTB Img](/assets/img//HTB/EASY/repeater.png)
+
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
 ## Front Matter
