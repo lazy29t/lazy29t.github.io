@@ -54,11 +54,12 @@ Seeying the web-page index we have to click on `click here!` and it'll appear th
 ![HTB Img](/assets/img//HTB/EASY/admin-psw.png)
 
 So researched on the page on **Networks** tools the pages tries to load afile called `photobomb.js`, so going to the file,
-we can see the following information
+we can see the following information 
 
 ![HTB Img](/assets/img//HTB/EASY/information-diclosed.png)
 
-With that credentials we can trying to write it on credentials panel
+We see a some information diclosed like **username:** `pH0t0` and **password:** `b0mb`,
+With that credentials are we can trying to write it on credentials panel
 
 ![HTB Img](/assets/img//HTB/EASY/admin-main.png)
 
