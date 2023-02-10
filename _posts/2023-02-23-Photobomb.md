@@ -11,6 +11,8 @@ math: true
 mermaid: true
 image: 
      path: /assets/img/HTB/EASY/pwn.png
+     height: 800px
+     width: 500px
      
 ---
 ## Recognizement
@@ -46,6 +48,10 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 How we can see the `port 80` is open so we are going to the domain [**https://photobomb.htb**](http://photobomb.htb) and see the content
 
 ![HTB Img](/assets/img//HTB/EASY/panel.png)
+
+Seeying the web-page index we have to click on `click here!` and it'll appear that credentials panel
+
+![HTB Img](/assets/img//HTB/EASY/admin-psw.png)
 
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
