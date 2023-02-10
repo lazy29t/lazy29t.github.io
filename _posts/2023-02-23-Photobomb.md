@@ -67,10 +67,14 @@ Soo.. we are admin **('-')**
 
 ## Exploit
 
+In that step we are using a proxy tool called [**Burpsuite**] and let's start to test.
+
 ### Proxy
+So in this panel tell us that we are unable to download any picture from this page, well with the help our proxy we can see what request leave it us
+
 ![HTB Img](/assets/img//HTB/EASY/request.png)
 
-And you can see the output
+so with that, send it to repeater for start to test 
 
 ![HTB Img](/assets/img//HTB/EASY/repeater.png)
 
