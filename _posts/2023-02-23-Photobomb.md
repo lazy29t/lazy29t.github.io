@@ -80,7 +80,7 @@ In that step we are using a proxy tool called [**Burpsuite**] and let's start to
 ### Proxy
 So in this panel tell us that we are unable to download any picture from this page, well with the help our proxy we can see what request leave it us:
 
-How we can see the request
+How we can see the request 
 ![HTB Img](/assets/img//HTB/EASY/request.png)
 
 
