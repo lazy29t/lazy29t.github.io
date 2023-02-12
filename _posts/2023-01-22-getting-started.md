@@ -11,7 +11,7 @@ mermaid: true
 
 ---
 
-![HTB Img](/assets/img//HTB/EASY/Photobomb/Precious.png){: width="700" height="200" }
+![HTB Img](/assets/img//HTB/EASY/Photobomb/Precious.png){: width="600" height="500" }
 
 ## Recognizement
 
