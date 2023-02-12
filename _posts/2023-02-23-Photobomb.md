@@ -10,7 +10,7 @@ pin: true
 math: true
 mermaid: true
 image: 
-     path: /assets/img/HTB/EASY/pwn.png
+     path: ../../assets/img/HTB/EASY/pwn.png
      height: 800px
      width: 500px
      
