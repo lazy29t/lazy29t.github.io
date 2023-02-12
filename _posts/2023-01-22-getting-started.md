@@ -10,6 +10,7 @@ math: true
 mermaid: true
 
 ---
+![HTB Img](/assets/img//HTB/EASY/Photobomb/Precious.png){: width="700" height="1200" }
 
 ## Recognizement
 
