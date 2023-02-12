@@ -9,8 +9,9 @@ render_with_liquid: false
 pin: true
 math: true
 mermaid: true
+image: pwn.png
 img_path: /assets/img/HTB/EASY/pwn.png
-    image: pwn.png
+
 
 ---
 ## Recognizement
