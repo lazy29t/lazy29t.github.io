@@ -10,6 +10,7 @@ pin: true
 math: true
 mermaid: true
 img_path: /assets/img/HTB/EASY/pwn.png
+image: pwn.png
 
 ---
 ## Recognizement
