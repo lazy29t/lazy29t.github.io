@@ -9,11 +9,11 @@ render_with_liquid: false
 pin: true
 math: true
 mermaid: true
-image: 
-    path: ../../assets/img/HTB/EASY/pwn.png
-    alt: Writeup Photobomb HTB
 
 ---
+
+![HTB Img](/assets/img//HTB/EASY/pwn.png)
+
 ## Recognizement
 
 Before to start we have to view if the machine is active throutgh **ICMP** ping.
