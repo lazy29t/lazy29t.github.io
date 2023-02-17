@@ -105,16 +105,16 @@ $ nc -lvnp 4040
 Listening on [any] 4040 ...
 ---
 $ wizard@photobomb:~/photobomb$ whoami
-$ whoami
-$ wizard
+whoami
+wizard
 ```
 Now we are verify if we aren't on a virtual container:
 
 ```console
 $ wizard@photobomb:~/photobomb$ hostname -I
-$ hostname -I
-$ 10.10.11.182 dead:beef::250:56ff:feb9:d10e
-$ wizard@photobomb:~/photobomb$
+hostname -I
+10.10.11.182 dead:beef::250:56ff:feb9:d10e
+wizard@photobomb:~/photobomb$
 ```
 
 
