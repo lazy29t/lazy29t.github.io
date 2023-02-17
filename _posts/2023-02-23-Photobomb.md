@@ -87,7 +87,7 @@ Send it to repeater tool we are going to change any variable from `filetype` par
 
 ![HTB Img](/assets/img//HTB/EASY/repeater.png)
 
-### Exploit
+### Reverse Shell
 
 Verify the response with a **500 code** **[Internal Server Error]** we are going to test if it works to do a [**reverse shell**], on this parameter we are put to next to `jpg` adding `;` and write the next reverse shell code *(PD: encoded on url because we'll have an error from the syntaxis due for the commas)* on my case I'll use from *bash* method with **Netcat** listener
 
