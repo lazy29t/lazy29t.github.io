@@ -173,7 +173,7 @@ wizard@photobomb:~/tmp$ touch find
 wizard@photobomb:~/tmp$ chmod +x find    #give it execution permissions
 wizard@photobomb:~/tmp$ nano find        # writting from this variable
 ```
-> `find` is a variable binary in bash located `/usr/bin/find` but in this case the script does not specify the absolute path of that variable, therefore we can take advantage of that to manipulate it by becoming as **root** {: .prompt-tip }
+> `find` is a variable binary in bash located `/usr/bin/find` but in this case the script does not specify the absolute path of that variable, therefore we can take advantage of that to manipulate it by becoming as **root** 
 
 On variable `find` we write `bash` that when executing as **root** they give us a bash bin in the `$PATH` environment:
 
