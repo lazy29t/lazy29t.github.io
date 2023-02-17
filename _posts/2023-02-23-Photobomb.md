@@ -116,9 +116,19 @@ hostname -I
 10.10.11.182 dead:beef::250:56ff:feb9:d10e
 wizard@photobomb:~/photobomb$
 ```
+How you can see we are not so, we are on a good way.
+So research from this user `wizard` in */home/wizard* directory with command `ls `you can see this:
 
+```console
+wizard@photobomb:~$ ls
+photobomb user.txt
+```
+And we got the user flag **~(vov)~** 
 
-
+```console
+wizard@photobomb:~$ cat user.txt
+8BN*************
+```
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
 ## Front Matter
