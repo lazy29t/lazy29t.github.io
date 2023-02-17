@@ -104,7 +104,7 @@ $ nc -lvnp 4040
 
 Listening on [any] 4040 ...
 ---
-$ wizard@photobomb:~/photobomb$ whoami
+wizard@photobomb:~/photobomb$ whoami
 whoami
 wizard
 ```
