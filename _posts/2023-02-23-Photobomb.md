@@ -129,6 +129,22 @@ And we got the user flag **~(vov)~**
 wizard@photobomb:~$ cat user.txt
 8BN*************
 ```
+
+## Privileges Escalation
+
+And now we are going to start to privileges escalation
+First writting `sudo -l` we see what user's group we are:
+
+```console
+wizard@photobomb:~$ sudo -l
+Matching Default entries for wizard on photobomb:
+  env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/snap/bin
+  
+User wizard may run the following commands on photobomb:
+  (root) SETENV: NONPASSWD: /opt/cleanup.sh
+wizard@photobomb:~$
+```
+
 Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin `Jekyll-Compose`(https://github.com/jekyll/jekyll-compose) to accomplish this.
 
 ## Front Matter
