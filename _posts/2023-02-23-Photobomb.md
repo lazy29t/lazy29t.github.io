@@ -196,7 +196,6 @@ root
 root@photobomb:~/home/wizard/photobomb$ cd 
 root@photobomb:~$ cat root/root.txt
 W4r***********io
-root@photobomb:~/
-
+root@photobomb:~$
 ```
 We got the **root** flag (T‿‿T')
