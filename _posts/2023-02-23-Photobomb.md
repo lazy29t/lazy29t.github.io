@@ -199,4 +199,4 @@ W4r***********io
 root@photobomb:~/
 
 ```
-We got the **root** flag (─‿‿─')
+We got the **root** flag (T‿‿T')
