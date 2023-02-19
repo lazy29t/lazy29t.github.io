@@ -13,7 +13,43 @@ image:
   alt: Meow machineTier 0 Telnet
 ---
 
-This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
+
+## Meow Machine
+### Telnet
+
+<h4>Teory<h4>
+  What does the acronym VM stand for? 
+```yaml
+  Virtual Machine 
+```
+```console
+$ telnet 10.129.53.52
+Trying 10.129.53.52...
+Connected to 10.129.53.52.
+
+```
+
+ 
+```console
+
+Escape character is '^]'.
+root
+....
+  █  █         ▐▌     ▄█▄ █          ▄▄▄▄
+  █▄▄█ ▀▀█ █▀▀ ▐▌▄▀    █  █▀█ █▀█    █▌▄█ ▄▀▀▄ ▀▄▀
+  █  █ █▄█ █▄▄ ▐█▀▄    █  █ █ █▄▄    █▌▄█ ▀▄▄▀ █▀█
+
+
+Meow login: root
+....
+root@Meow:~#
+```
+```console
+root@Meow:~# ls 
+flag.txt  snap
+root@Meow:~# cat flag.txt
+j89************o
+```
 
 ## Titles
 ---
