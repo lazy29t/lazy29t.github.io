@@ -1,21 +1,19 @@
 ---
 title: Starting Point Tier 0 HTB
 author: lazy29t
-date: 2023-02-07 20:53:00 +0800
+date: 2023-02-10 20:53:00 +0800
 categories: [HackTheBox, StartPoint]
-tags: [Discovery, tools, HTB, telnet]
+tags: [Discovery, tools, HTB, telnet, ftp]
 permalink: /HackTheBox/Starting-Point/tier-0
 math: true
 mermaid: true
 ---
 
 
-## Meow Machine
-### Telnet
-
+## Meow Machine (Telnet)
 
 ### Questions
-What does the acronym VM stand for? 
+**What does the acronym VM stand for?** 
 
 ```yaml
  Virtual Machine 
@@ -52,7 +50,8 @@ root@Meow:~# cat flag.txt
 j89************o
 ```
 
-## Fawn Machine
+## Fawn Machine (FTP)
+
 ### FTP Services
 
 In this case we are responses the questiosn about this service:
@@ -71,7 +70,7 @@ Port 21
 ```
 **What acronym is used for the secure version of FTP? **
 ```yaml
-SFTP (S F T P) 
+SFTP (Secure Ffile Transfer Protocol) 
 ```
 **From your scans, what version is FTP running on the target? **
 
@@ -118,3 +117,10 @@ flag.txt
 ~/Desktop/HTB/StartPoint$ cat flag.txt
 4g5**************e
 ```
+## Dancing Machine (SMB)
+
+**What does the 3-letter acronym SMB stand for?**
+```yaml
+Server Message Block
+```
+**What is the service name for port 445 that came up in our Nmap**
