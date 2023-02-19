@@ -17,11 +17,15 @@ image:
 ## Meow Machine
 ### Telnet
 
-<h4>Teory<h4>
+ <h4>Teory<h4>
   What does the acronym VM stand for? 
-```yaml
+
+```console
   Virtual Machine 
 ```
+  
+---
+Now We are to trying to connect **Telnet** `port 23` with the nexts commands 
 ```console
 $ telnet 10.129.53.52
 Trying 10.129.53.52...
