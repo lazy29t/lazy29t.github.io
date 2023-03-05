@@ -68,18 +68,19 @@ File Transfer Protocol
 ```yaml
 Port 21 
 ```
-**What acronym is used for the secure version of FTP? **
+**What acronym is used for the secure version of FTP?**
 ```yaml
 SFTP (Secure Ffile Transfer Protocol) 
 ```
-**From your scans, what version is FTP running on the target? **
+**From your scans, what version is FTP running on the target?**
 
 ```yaml
 nc -vn 10.129.157.27  21
 ....
 vsFTPd 3.0.3
 ```
-
+**1. From your scans, what OS type is running on the target?**
+**2. What is username that is used over FTP when you want to log in without having an account?**
 ```console
 $ftp 10.129.157.27
 Connected to 10.129.157.27.
@@ -92,6 +93,10 @@ Remote system type is UNIX.
 Using binary mode to transfer files.
 ftp> 
 ```
+So the answers are:
+
+1. `UNIX`
+2. `anonymous`
 
 ```console
 ftp> ls
