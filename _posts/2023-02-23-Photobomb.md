@@ -12,7 +12,7 @@ mermaid: true
 
 ---
 
-![HTB Img](/assets/img//HTB/EASY/pwn.png){: width="700" height="1200" }
+![HTB Img](/assets/img//HTB/EASY/Photobomb/Photobomb.png){: width="700" height="1200" }
 
 ## Recognizement
 
