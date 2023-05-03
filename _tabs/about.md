@@ -7,11 +7,8 @@ order: 1
   <img src="https://media.giphy.com/media/lJnAXeJO8tE7E37mxq/giphy.gif" style="width:90%;height=70% "/>
 </div>
 
-#### I'm a enthusiast student about cybersecurity. In this blog I'll post it some notes and writeups from [**HackTheBox**](https://app.hackthebox.com/profile/1375558) and [**TryHackMe**](https://lazy29t.github.io) plataform🕹
-
-
-
-
+## 👋Hi tutti
+***I'm a enthusiast student about cybersecurity. In this blog I'll post it some notes and writeups from [**HackTheBox**](https://app.hackthebox.com/profile/1375558) and [**TryHackMe**](https://lazy29t.github.io) plataform🕹***
 
 - 🧠 I'm currently learning `Ethical Hacking` and `Machine Learning` 
 - 💬 I like to talk about `Hacking` or `Machine learning`
