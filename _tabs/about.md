@@ -16,7 +16,8 @@ In this blog I'll post it some notes and writeups from HackTheBox and TryHackMe 
 - 💬 I like to talk about `Hacking` or `Machine learning`
 - 🕹 Fun fact: I love play `HacktheBox` and doing writeups for my [**web-page**](https://lazy29t.github.io)
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=lazy29t&theme=merko&background=000000)](https://git.io/streak-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=lazy29t&theme=radical&background=000000)](https://git.io/streak-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lazy29t&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 
 > I hope you enjoy it `~(+v+)~`
