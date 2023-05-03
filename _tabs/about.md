@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 1
 ---
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/tC6ZYz3n6FwAuwCGt6/giphy.gif" style="width:90%;height=70% "/>
+  <img src="https://media.giphy.com/media/lJnAXeJO8tE7E37mxq/giphy.gif" style="width:90%;height=70% "/>
 </div>
 
 
