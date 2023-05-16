@@ -11,9 +11,9 @@ order: 1
 ***I'm a enthusiast student about cybersecurity. In this blog I'll post it some notes and writeups from [HackTheBox](https://app.hackthebox.com/profile/1375558) and [TryHackMe](https://lazy29t.github.io) plataform🕹***
 
 - 🧠 I'm currently learning `Ethical Hacking` and `Machine Learning` 
+- 🏃 **Status:** Working towards the `EJPTv2` certification
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lazy29t&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 
 > I hope you enjoy it `~(+v+)~`
