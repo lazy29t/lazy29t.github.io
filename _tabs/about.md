@@ -8,7 +8,7 @@ order: 1
 </div>
 
 ## 👋Hi tutti
-***I'm a enthusiast student about cybersecurity. In this blog I'll post it some notes and writeups from [HackTheBox](https://app.hackthebox.com/profile/1375558) and [TryHackMe](https://lazy29t.github.io) plataform🕹***
+***I'm a enthusiast student about cybersecurity. In this blog I'll post it some notes and writeups from [HackTheBox](https://app.hackthebox.com/profile/1375558) and [TryHackMe](https://tryhackme.com/p/Lazy29t) plataform🕹***
 
 - 🧠 I'm currently learning `Ethical Hacking` and `Machine Learning` 
 - 🏃 **Status:** Working towards the `EJPTv2` certification
