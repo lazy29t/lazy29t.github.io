@@ -2,35 +2,62 @@
 title: Starting Point Tier 0 HTB
 author: lazy29t
 date: 2023-02-10 20:53:00 +0800
-categories: [HackTheBox, StartPoint]
-tags: [Discovery, tools, HTB, telnet, ftp]
-permalink: /HackTheBox/Starting-Point/tier-0
+categories: [HackTheBox, StartPoint, Meow]
+tags: [Discovery, tools, HTB, telnet, nmap]
+permalink: /HackTheBox/Starting-Point/tier-0/meow
 math: true
 mermaid: true
 ---
 
+# Meow Machine (Telnet)
 
-## Meow Machine (Telnet)
 
-### Questions
+
+## Questions
 **What does the acronym VM stand for?** 
 
 ```yaml
  Virtual Machine 
 ```
+**What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell.** 
+```yaml
+Terminal
+```
+**What service do we use to form our VPN connection into HTB labs?**
+```yaml
+openvpn
+```
+**What is the abbreviated name for a 'tunnel interface' in the output of your VPN boot-up sequence output?**
 
-  
+```yaml
+tun
+```
+
+**What tool do we use to test our connection to the target with an ICMP echo request?**
+
+```yaml
+ping
+```
+**What is the name of the most common tool for finding open ports on a target?**
+
+```yaml
+nmap
+```
+**What service do we identify on port 23/tcp during our scans?**
+```yaml
+telnet
+```
+**What username is able to log into the target over telnet with a blank password?**
+```yaml
+root
+```
 ---
+## Practical
 Now We are to trying to connect **Telnet** `port 23` with the nexts commands 
 ```console
 $ telnet 10.129.53.52
 Trying 10.129.53.52...
 Connected to 10.129.53.52.
-```
-
- 
-```console
-
 Escape character is '^]'.
 root
 ....
@@ -50,7 +77,7 @@ root@Meow:~# cat flag.txt
 j89************o
 ```
 
-## Fawn Machine (FTP)
+# Fawn Machine (FTP)
 
 ### FTP Services
 
