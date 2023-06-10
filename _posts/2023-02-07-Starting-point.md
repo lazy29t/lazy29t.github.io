@@ -11,7 +11,7 @@ mermaid: true
 
 # Meow Machine (Telnet)
 
-
+![Desktop](https://lazy29t.github.io/assets/img/HTB/Start-Point/Tier-0/meow.jpeg){: width="700" height="1200" }
 
 ## Questions
 **What does the acronym VM stand for?** 
