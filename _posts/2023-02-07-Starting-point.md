@@ -80,7 +80,7 @@ j89************o
 # Fawn Machine (FTP)
 ![Desktop](https://lazy29t.github.io/assets/img/HTB/Start-Point/Tier-0/fawn.jpeg){: width="700" height="1100" }
 
-## FTP Services
+### FTP Services
 
 In this case we are responses the questiosn about this service:
 
