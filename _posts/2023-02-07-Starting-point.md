@@ -69,8 +69,6 @@ root
 Meow login: root
 ....
 root@Meow:~#
-```
-```console
 root@Meow:~# ls 
 flag.txt  snap
 root@Meow:~# cat flag.txt
