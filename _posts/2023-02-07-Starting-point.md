@@ -150,7 +150,7 @@ flag.txt
 ```
 ## Dancing Machine (SMB)
 
-![Desktop](https://lazy29t.github.io/assets/img/HTB/Start-Point/Tier-0/dacing.jpeg){: width="700" height="1100" }
+![Desktop](https://lazy29t.github.io/assets/img/HTB/Start-Point/Tier-0/dancing.jpeg){: width="700" height="1100" }
 
 **What does the 3-letter acronym SMB stand for?**
 ```yaml
