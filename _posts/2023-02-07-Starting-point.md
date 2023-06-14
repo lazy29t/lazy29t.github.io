@@ -13,7 +13,7 @@ mermaid: true
 
 ![Desktop](https://lazy29t.github.io/assets/img/HTB/Start-Point/Tier-0/meow.jpeg){: width="700" height="1100" }
 
-## Questions
+## Teory
 **What does the acronym VM stand for?** 
 
 ```yaml
