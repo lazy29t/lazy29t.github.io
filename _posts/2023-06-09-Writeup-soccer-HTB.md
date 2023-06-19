@@ -13,7 +13,7 @@ mermaid: true
 ![HTB Img](https://lazy29t.github.io/assets/img/HTB/EASY/Soccer/Soccer.png){: width="1200" height="554"}
 
 ## Recognizement
-First we have to confirm if the machine is active send it a ICMP ping...
+First we have to confirm if the machine is active send it a **ICMP** ping...
 
 ```bash
 ping -c 1 10.10.11.194
