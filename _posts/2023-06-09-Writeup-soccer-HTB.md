@@ -36,7 +36,7 @@ So we can start to do the machine (^^)
 In this part we are using [nmap] tool for scanning TCP ports on the IP **10.10.11.194** 
 with the next command:
 
-```python
+```bash
 $ nmap -p- --open --min-rate 5000 -sCV -vv -Pn -n 10.10.11.194 
 ....
 PORT   STATE SERVICE VERSION
