@@ -28,7 +28,7 @@ rtt min/avg/max/mdev = 181.901/181.901/181.901/0.000 ms
 
 ### Nmap
 
-Now we are started to scan the IP machine with [**nmap**] with this commands.
+Now we are started to scan the IP machine with **nmap** with this commands.
 
 ```console
 $ nmap -p- --open -sCV --min-rate 5000 -v -n -Pn 10.10.11.182 
