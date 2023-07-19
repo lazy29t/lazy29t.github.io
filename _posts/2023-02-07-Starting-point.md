@@ -155,6 +155,10 @@ flag.txt
 ```yaml
 Server Message Block
 ```
+**What port does SMB use to operate at?**
+```yaml
+445
+```
 **What is the service name for port 445 that came up in our Nmap**
 ```console
 $ nmap -p445 -sV -v --min-rate 5000 10.129.168.26 
@@ -174,8 +178,9 @@ smbclient --no-pass -L 10.129.168.26                                            
         IPC$            IPC       Remote IPC
         WorkShares      Disk      
 SMB1 disabled -- no workgroup available
-
 ```
+- **The answer is:** 4
+
 ```console
 smbclient //10.129.50.160/WorkShares                                                                                                                                     1 ⨯
 Enter WORKGROUP\lazy29t's password: 
