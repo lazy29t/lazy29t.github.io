@@ -107,6 +107,7 @@ vsFTPd 3.0.3
 ```
 **1. From your scans, what OS type is running on the target?**
 **2. What is username that is used over FTP when you want to log in without having an account?**
+**3. What is the response code we get for the FTP message 'Login successful'?**
 ```console
 $ftp 10.129.157.27
 Connected to 10.129.157.27.
@@ -123,6 +124,9 @@ So the answers are:
 
 1. `UNIX`
 2. `anonymous`
+3. `230`
+
+**There are a couple of commands we can use to list the files and directories available on the FTP server. One is dir. What is the other that is a common way to list files?**
 
 ```console
 ftp> ls
@@ -132,7 +136,7 @@ ftp> ls
 226 Directory send OK.
 ftp> cat flag.txt
 ```
-
+**What is the command used to download the file we found on the FTP server?** 
 ```console
 ftp>get flag.txt
 local: flag.txt remote: flag.txt
@@ -141,13 +145,18 @@ local: flag.txt remote: flag.txt
 100% |***********************************|    32      183.82 KiB/s    00:00 ETA
 226 Transfer complete.
 ```
-
+```yaml
+get
+```
+**Submit the flag**
 ```console
 ~/Desktop/HTB/StartPoint$ ls
 flag.txt
 ~/Desktop/HTB/StartPoint$ cat flag.txt
 4g5**************e
 ```
+----
+
 # Dancing Machine (SMB)
 ![Desktop](https://lazy29t.github.io/assets/img/HTB/Start-Point/Tier-0/dacing.jpeg){: width="700" height="1100" }
 
