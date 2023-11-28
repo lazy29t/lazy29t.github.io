@@ -13,7 +13,7 @@ order: 1
 ## Certifications:
 
 <div>
-  <img>
+  <img src="/assets/img/certification/EJPT/eJPT.png">
 </div>
 
 ## 🏃**Status**:
