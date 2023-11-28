@@ -11,7 +11,10 @@ order: 1
 ***I'm a enthusiast student about cybersecurity. In this blog I'll post it some notes and writeups from [HackTheBox](https://app.hackthebox.com/profile/1375558) and [TryHackMe](https://tryhackme.com/p/Lazy29t) plataform🕹***
 
 ## Certifications:
-
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+</style>
 <div>
   <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png">
 </div>
