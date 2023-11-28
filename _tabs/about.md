@@ -13,12 +13,12 @@ order: 1
 ## Certifications:
 <div>
  <style>
-body {background-color: powderblue;}
-h1   {color: blue;}
+   <h1>hello there</h1>
  </style>
 </div>
 <div>
-  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png">
+  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="border: 2px solid rebeccapurple;
+  padding: .5em;">
 </div>
 
 ## 🏃**Status**:
