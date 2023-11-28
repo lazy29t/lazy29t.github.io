@@ -10,8 +10,15 @@ order: 1
 ## 👋Hi tutti
 ***I'm a enthusiast student about cybersecurity. In this blog I'll post it some notes and writeups from [HackTheBox](https://app.hackthebox.com/profile/1375558) and [TryHackMe](https://tryhackme.com/p/Lazy29t) plataform🕹***
 
+## Certifications:
+
+<div>
+  <img>
+</div>
+
+## 🏃**Status**:
 - 🧠 I'm currently learning `Ethical Hacking` and `Machine Learning` 
-- 🏃 **Status:** Working towards the `EJPTv2` certification
+- 👾 Working towards the `ECPPTv2` certification
 
 
 
