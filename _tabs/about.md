@@ -13,7 +13,7 @@ order: 1
 ## Certifications:
 
 <div>
-  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="width:20%;height=40%";background-color:red; position=center">
+  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="width:20%;height=40%";position=center">
 </div>
 
 ## 🏃**Status**:
