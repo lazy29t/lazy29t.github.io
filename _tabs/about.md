@@ -10,17 +10,16 @@ order: 1
 ## 👋Hi tutti
 ***I'm a enthusiast student about cybersecurity. In this blog I'll post it some notes and writeups from [HackTheBox](https://app.hackthebox.com/profile/1375558) and [TryHackMe](https://tryhackme.com/p/Lazy29t) plataform🕹***
 
-## Certifications:
-
-<div>
-  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png">
-</div>
-
 ## 🏃**Status**:
 - 🧠 I'm currently learning `Ethical Hacking` and `Machine Learning` 
 - 👾 Working towards the `ECPPTv2` certification
 
+## Certifications:
 
+<div>
+  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png style="border: 2px solid rebeccapurple;
+  padding: .5em;">
+</div>
 
 
 > I hope you enjoy it `~(+v+)~`
