@@ -17,7 +17,7 @@ order: 1
 ## Certifications:
 
 <div>
-  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="border: 2px solid rebeccapurple">
+  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="border: 2px solid rebeccapurple; background-color:green">
 </div>
 
 
