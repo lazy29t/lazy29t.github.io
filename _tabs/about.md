@@ -12,7 +12,7 @@ order: 1
 
 ## 🏃**Status**:
 - 🧠 I'm currently learning `Ethical Hacking` and `Machine Learning` 
-- 👾 Working towards the `ECPPT` certification . . .
+- 👾 Working towards the `ECPPTv2` certification . . .
 
 ## **Certifications**:
 
