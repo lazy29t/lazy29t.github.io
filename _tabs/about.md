@@ -18,7 +18,7 @@ order: 1
 
 <div align="center">
   <div></div>
-  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="border: 5px solid rebeccapurple; background-color:#ff000080">
+  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="border: 5px solid rebeccapurple; background-color:#ff000080; border-corner-shape: scoop; border-radius: 10%">
 </div>
 
 
