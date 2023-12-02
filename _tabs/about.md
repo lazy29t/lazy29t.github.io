@@ -12,13 +12,13 @@ order: 1
 
 ## 🏃**Status**:
 - 🧠 I'm currently learning `Ethical Hacking` and `Machine Learning` 
-- 👾 Working towards the `ECPPTv2` certification . . .
+- 👾 Working towards the `ECPPT` certification . . .
 
 ## **Certifications**:
 
 <div align="center">
   <div></div>
-  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="border: 5px solid ; rgba(255, 0, 85, 0.467); background-color:#DF2604; border-corner-shape: scoop; border-radius: 10%">
+  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="border: 5px solid ; rgba(255, 0, 85, 0.467); background-color:#91 DF2604; border-corner-shape: scoop; border-radius: 10%">
 </div>
 
 
