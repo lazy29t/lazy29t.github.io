@@ -17,7 +17,7 @@ order: 1
 ## **Certifications**:
 
 <div align="center">
-  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="width:70%; height:50%; border: 5px solid #8B1C08; padding:20px ; background-color:#F1C61E00; border-corner-shape: scoop; border-radius: 10%">
+  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="width:240px; height:50%; border: 5px solid #8B1C08; padding:20px ; background-color:#F1C61E00; border-corner-shape: scoop; border-radius: 10%">
 </div>
 
 
