@@ -18,7 +18,7 @@ order: 1
 
 <div id="goal" align="center">
   <div id="square" style="width:260px; height:300px; border: 5px solid #F1948A; border-corner-shape: scoop; border-radius: 10%"></div>
-  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="width:200px; height:260px; border: 5px solid #F1948A; padding:1m ; background-color:#F1C61E00; border-corner-shape: scoop; border-radius: 10%">
+  <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="width:200px; height:260px; border: 5px solid #F1948A; padding:10px ; background-color:#F1C61E00; border-corner-shape: scoop; border-radius: 10%">
 </div>
 
 
