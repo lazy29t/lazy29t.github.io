@@ -16,7 +16,7 @@ order: 1
 
 ## **Certifications**:
 
-<div align="center" href="https://certs.ine.com/05d1bcdb-fe29-4ead-b5e7-61f4ae7bdf8e#gs.259x7f">
+<div align="center" >
   <img src="https://lazy29t.github.io/assets/img/certifications/EJPT/eJPT.png" style="width:240px; height:50%; border: 6px solid #E51A6A; padding:30px ; background-color:#4d000080; border-corner-shape: scoop; border-radius: 10%">
 </div>
 
