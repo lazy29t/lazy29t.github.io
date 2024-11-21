@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@500&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    outline: none;
+    border: none;
+    outline: none;
+}
+
+.host-grotesk-fuente{
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+header{
+
+    margin-top: 10px;
+    background-color: rgba(56, 56, 56, 0.493);
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 1rem 4% 1rem;
+    filter:drop-shadow(10px);
+    display:flex;
+    justify-content:center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+nav a{
+
+    font-size: 1.3rem;
+    align-content:center;
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s ease;
+    border-bottom: 3px solid transparent;
+    padding-left: 20px;
+    margin-right: 30px;
+   
+}
+
+nav a:hover,
+nav a:active{
+    transform: scale(1.1);
+    color: aqua;
+    border-bottom: 3px solid;
+    
+
+}
+
+body{
+    color: white;
+    overflow-x: hidden;
+    background-color: #000;
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+    
+}
+
+main{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.bar{
+    background-color: rgb(104, 0, 0);
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.follow{
+    margin: 30px 4px;
+}
+
+
+.about{
+    color: aliceblue;
+    padding: 50px;
+    
+}
+
+.box1 {
+    background-color: rgba(155, 155, 155, 0.558);
+    height: 320px;
+    width: 320px;
+    border-radius: 45px;
+    place-items: center;
+    align-items: center;
+    margin: 30px;
+
+
+}
+
+.subject{
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    color: azure;
+    padding-bottom: 3px;
+    padding-top: 130px;
+
+}
+
+.description{
+    color: aliceblue;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.projects{
+    text-align: center;
+    color: aliceblue;
+    padding: 50px;
+}
+
+.CTF{
+    text-align: center;
+    color: aliceblue;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills{
+    text-align: center;
+    color: aliceblue;
+    padding: 50px;
+    align-items: center;
+}

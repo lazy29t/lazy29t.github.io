@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@500&display=swap');
+
+body{
+    background-color: #000;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 459;
+    font-style: normal;
+    
+}
+
+.profile{
+    margin: auto;
+    padding-top: 200px;
+    justify-content: center;
+    display:grid;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.icono{
+    object-fit:cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 40px 0 rgb(31, 240, 255);
+}
+
+
+
+.user{
+    color: aliceblue;
+}
+
+.portfolio{
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-color: none;
+    height: 60px;
+    width: 150px;
+    font-size:large;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #0ea6c4;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 20px  rgb(31, 240, 255)
+
+}
+
+.portfolio:hover{
+    background-color: #11c3e6;
+    box-shadow: 0 0 30px  rgb(31, 240, 255);
+    transform: scale(1.05);
+}
+
+
+
+.icons{
+    padding: 30px;
+    color-scheme: #fff;
+    align-items: flex-end;
+
+    
+}
+
+
+.icon1{
+    color: #fff;
+    cursor: pointer;
+}
+
+.icon1:hover{
+    color: aqua;
+    transform: scale(1.1)
+}
